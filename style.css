@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+	text-align: center;
+}
+
 .body_background 
 {
 	background-image: url("Game\ On\ \(1\).png");
     background-position: center;
     background-size: cover;
+	text-align: center;
 }
 #myCanvas
 {
     border-width:10px;
     background-color: white; 
     border-style:ridge;
+	background-image: url("2D\(1\).png");
 }
 
 h2
@@ -18,8 +26,14 @@ h2
 	padding: 5px;
 	font-family:cursive;
  }
-h3
+#Width
 {
+	font-family:"Pacifico";
+	display: inline-block;
+}
+#Height
+{
+	font-family: "Pacifico";
 	display: inline-block;
 }
 span
@@ -41,4 +55,80 @@ a
 	margin-bottom: 10px;
 }
 
+#img1 {
+	width: 200px;
+	height: 200px;
+}
 
+#Email {
+	color: black;
+	font-family: cursive;
+	font-size: 1.45pc;
+	padding-left: 500px;
+}
+
+#Email2 {
+	color: black;
+	font-family: cursive;
+	font-size: 1.45pc;
+	padding-left: 500px;
+}
+
+#div2 {
+	font-size: larger;
+	font-family: cursive;
+	color: rgb(1, 1, 71);
+}
+
+#B2 {
+	display: none;
+
+	font-size: 0.88cm;
+}
+
+#div22 {
+	font-size: 1cm;
+	font-family: monospace;
+	color: black;
+	font-weight: bolder;
+}
+
+#H_2 {
+	font-family:"Pacifico";
+}
+
+#B12 {
+	display: -moz-deck;
+}
+
+#B14 {
+	display: none;
+}
+
+#B15,#B16,#B17,#B18,#B19,#B20,#B21,#B22{
+	display: none;
+}
+
+#div25 {
+	display: none;
+	font-family: "Pacifico";
+	font-size: 1cm;
+	color: black;
+	font-weight: bolder;
+}
+
+#reward {
+	display: none;
+	text-align: center;
+	color: black;
+	font-family: "Pacifico";
+	font-size: 1cm;
+}
+
+#B25 {
+	display: none;
+}
+
+#B27 {
+	display: none;
+}
