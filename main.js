@@ -256,14 +256,7 @@ function my_keydown(e) {
         }, 5000);
         div2.style.display= "block";
     }
-    if(keyPressed == '75'){
-        document.getElementById("div2").innerHTML = "I told you not press that key.";
-        setTimeout(function(){
-            div2.style.display = "none";
-        }, 5000);
-        window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-        console.log("alaways lisente to the warning or you can get rick rolled.")
-    }
+
     if(keyPressed == '77'){
         music.play();
         document.getElementById("div2").innerHTML = "Jadoo: Here is your cute puppy.";
@@ -609,5 +602,9 @@ function hide_update() {
     div2.style.display = "none";
     B26.style.display = "block";
     B27.style.display = "none";
+}
+
+function reviwe() {
+    window.location = "index5.html";
 }
 //Functions Ends Here.//
