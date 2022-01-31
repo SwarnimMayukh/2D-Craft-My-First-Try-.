@@ -305,6 +305,9 @@ function my_keydown(e) {
         }, 3000);
         console.log("Real Or Fake ?");
     }
+    if(keyPressed == '73') {
+        img = ["","","","",""];
+    }
 }
 
 //keyPressed Events Ends Here//
@@ -499,13 +502,13 @@ function ans3() {
 }
 
 function ans4() {
-
+    new_image("design1.png");
     document.getElementById("div2").innerHTML = "You got it right.And for your reward here is the link";
-    reward.style.display = "block";
+    enter1.style.display = "block";
     setTimeout(function(){
         document.getElementById("div2").innerHTML = "Thanks For Playing 2D CRAFT AND WE WILL MEET AGAIN WITH A DIFFRENT CHALLENGE.";
         div2.style.display = "none";
-        reward.style.display = "none";
+        enter1.style.display = "none";
       }, 10000);
 
     reward.style.display = "block";
@@ -607,4 +610,8 @@ function hide_update() {
 function reviwe() {
     window.location = "index5.html";
 }
-//Functions Ends Here.//
+
+function enter() {
+    window.location = "newarea.html";
+}
+//Functions Ends Here//
