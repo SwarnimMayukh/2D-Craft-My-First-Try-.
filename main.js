@@ -211,17 +211,6 @@ function my_keydown(e) {
         div2.style.display= "block";
         console.log("share your ideas at 2dcraftis@gmail.com!!")
     }
-    if(keyPressed == '74'){
-        block = block + 1;
-        new_image("download (1).jpeg");
-        document.getElementById("div2").innerHTML="Jadoo: Hi, I am jadoo. I will ask you 2 questions if you ans all of them correct then you test some of earlie develppment versions of 2D CRAFT, Are you ready ?";
-       music.play();
-       div25.style.display = "block";
-       B15.style.display = "block";
-       B16.style.display = "block";
-       div2.style.display= "block";
-    console.log("you pressed j and Jadoo is here too !!");
-    }
     if(keyPressed == '83'){
          block + 1;
         new_image("download (2).jpeg");
