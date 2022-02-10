@@ -1,36 +1,48 @@
 <html>
     <head>
-        <style>
-            body{
-                text-align: center;
-                background-image: url("download\ \(5\).jpeg");
-            }
-            input {
-                font-size: 1cm;
-               padding-top: 20px;
-               padding-bottom:20px;
-               width: auto;
-               height: auto;
-            }
-            button {
-                font-size: 1cm;
-               padding-top: 20px;
-               padding-bottom:20px; 
-            }
-        </style>
+        <title>Support & Review.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-<body>
-<form action="https://getform.io/f/dd43138d-eb09-4efb-9bd1-f78609ca1e64" method="POST">
-    <input  type="text" name="name" placeholder=" name here." required>
-    <br>
-    <input type="email" name="email" placeholder=" email here." required>
-    <br>
-    <input type="text" name="message" placeholder=" review/problem here." required>
-    <!-- checkbox handle --> 
-    <br>
-    <button type="submit" onclick="sumbit()">Send</button>
-</form>
-<button id="back" onclick="back()">GO BACK.</button>
-</body>
+    <body>
+        <center>
+        <form action="https://getform.io/f/dd43138d-eb09-4efb-9bd1-f78609ca1e64" method="POST">
+            <input type="text" name="name" placeholder="name" required>
+            <br>
+            <input type="email" name="email" placeholder="email" required>
+            <br>
+            <input type="text" name="message" placeholder="message" required>
+            <br>
+            <input type="radio" name="project" value="GUPSHAP" checked required><label>GUPSHAP</label>
+            <input type="radio" name="project" value="2d craft pc" required><label>2D CRAFT PC</label>
+            <input type="radio" name="project" value="2d carft mobile" required><label>2D CRAFT MOBILE</label>
+            <br>
+            <input type="file" name="file">
+            <br>
+            <label class="btn btn-danger">Note: File uploading is not compulsory.</label>
+            <br>
+            <!-- radio button handle --> 
+            <input type="radio" name="gender" value="male" checked ><label>male</label>
+            <input type="radio" name="gender" value="female" ><label>female</label>
+            <input type="radio" name="gender" value="other" ><label>other</label>
+            <br>
+            <label>Rating in stars.</label>
+            <br>
+            <input type="radio" name="rating" value="0 start"><label>0 start</label>
+            <input type="radio" name="rating" value="1 start"><label>1 start</label>
+            <input type="radio" name="rating" value="2 start"><label>2 start</label>
+            <input type="radio" name="rating" value="3 start"><label>3 start</label>
+            <input type="radio" name="rating" value="4 start"><label>4 start</label>
+            <input type="radio" name="rating" value="5 start"><label>5 start</label>
+            <input type="radio" name="rating" value="6 start"><label>6 start</label>
+            <input type="radio" name="rating" value="7 start"><label>7 start</label>
+            <input type="radio" name="rating" value="8 start"><label>8 start</label>
+            <input type="radio" name="rating" value="9 start"><label>9 start</label>
+            <input type="radio" name="rating" value="10 start"><label>10 start</label>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+        <button id="back" onclick="back()">Go Back.</button>
+    </center>
+    </body>
 <script src="main5.js"></script>
 </html>
