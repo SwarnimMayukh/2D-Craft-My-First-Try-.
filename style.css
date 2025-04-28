@@ -4,6 +4,10 @@ body {
 	text-align: center;
 }
 
+#center1 {
+	visibility: hidden;
+}
+
 .body_background 
 {
 	background-image: url("Game\ On\ \(1\).png");

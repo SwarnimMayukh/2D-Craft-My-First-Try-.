@@ -1,0 +1,41 @@
+Example code strucher of adding jadoo and making jadoo to spawn randomly in mobile version and pc - 
+
+jadoo_x = 50;
+jadoo_y = 50;
+jadoo_object = "download (1).jpeg";
+jadoo_object_width = 110;
+jadoo_object_height = 100;
+
+ function jadoo_update() {
+    fabric.Image.fromURL("download (1).jpeg",function(Img){
+        jadoo_object = Img;
+        jadoo_object.scaleToWidth(jadoo_object_width);
+        jadoo_object.scaleToHeight(jadoo_object_height);
+        jadoo_object.set({
+            top:jadoo_y,
+            left:jadoo_x
+        });
+        canvas.add(jadoo_object);
+
+    });
+}
+ 
+ if(jadoo_x <= 850)
+ setTimeout(function(){
+    jadoo_x = Math.floor(Math.random() * 840) + 1;
+    
+},60000); .
+
+jadoo event key code - 
+
+  if(keyPressed == '74'){
+        block = block + 1;
+        new_image("download (1).jpeg");
+        document.getElementById("div2").innerHTML="Jadoo: Hi, I am jadoo. I will ask you 2 questions if you ans all of them correct then you test some of earlie develppment versions of 2D CRAFT, Are you ready ?";
+       music.play();
+       div25.style.display = "block";
+       B15.style.display = "block";
+       B16.style.display = "block";
+       div2.style.display= "block";
+    console.log("you pressed j and Jadoo is here too !!");
+    }  .

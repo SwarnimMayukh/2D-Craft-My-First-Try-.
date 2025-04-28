@@ -603,4 +603,7 @@ function reviwe() {
 function enter() {
     window.location = "newarea.html";
 }
+function discord() {
+    window.location = "https://discord.gg/QDCGSGuTsV";
+}
 //Functions Ends Here//
